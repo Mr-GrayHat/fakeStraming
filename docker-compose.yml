@@ -1,0 +1,9 @@
+services:
+  web:
+    build: .
+    ports:
+      - "5000:5000"
+    environment:
+      - YOUTUBE_API_KEY=AIzaSyD-Ql8AppLBZNjFKLiDD1DUHuJ95-mgMrw  # Usa tu API key aquí
+    volumes:
+      - .:/app  # Opcional: monta el código como volumen para desarrollo
