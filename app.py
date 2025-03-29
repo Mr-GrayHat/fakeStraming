@@ -1,10 +1,9 @@
 from flask import Flask, render_template, jsonify
 import requests
-import os  # <-- Añade esta línea
 app = Flask(__name__)
 
 
-YOUTUBE_API_KEY = os.getenv('YOUTUBE_API_KEY')  # <-- Modifica esta línea
+YOUTUBE_API_KEY = 'AIzaSyD-Ql8AppLBZNjFKLiDD1DUHuJ95-mgMrw'
 
 
 @app.route('/')
