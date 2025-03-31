@@ -17,8 +17,8 @@ def get_trends():
     params = {
         'part': 'snippet',
         'chart': 'mostPopular',
-        'videoCategoryId': '100',
-        'maxResults': '12',
+        'videoCategoryId': '10',
+        'maxResults': '100',
         'key': YOUTUBE_API_KEY,
         'regionCode': 'US'
     }
